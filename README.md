@@ -1,2 +1,23 @@
-# shop-nobi-gemini-extension
-Shop Nobi search engine extension for Gemini CLI
+# Shop Nobi for Gemini CLI
+
+Connect Gemini CLI to the [Shop Nobi search engine](https://nobi.ai/shop/mcp). The current public MCP server searches products across online stores and returns product names, stores, prices, availability, images, and links to the merchant. It is read-only and does not require an account or API key.
+
+## Install
+
+```sh
+gemini extensions install https://github.com/Locusive/shop-nobi-gemini-extension
+```
+
+Restart Gemini CLI, then ask for a product search, for example: “Find a merino wool cardigan under $200 and show the store, price, and product link for each result.” Gemini CLI can call the `search_products` tool when the request fits. It may ask you to approve the tool call.
+
+The extension also exposes `find_shop_nobi_page` for relevant Shop Nobi product-topic pages. Prices and availability can change, so confirm them at the merchant before buying. Search results are not endorsements or fit guarantees.
+
+## Connection
+
+The extension connects directly to `https://api.nobi.ai/v1/shop/mcp` using MCP Streamable HTTP. It runs no local server and asks for no credentials. See the [MCP guide](https://docs.nobi.ai/shop-nobi-mcp) for tool arguments and response fields, or the [machine-readable guide](https://docs.nobi.ai/shop-nobi-mcp.md).
+
+This extension currently supports product search. Shop Nobi's broader vision includes search for other online offerings, but those are not exposed by this MCP server yet.
+
+## Maintainer
+
+[Locusive](https://github.com/Locusive) maintains Shop Nobi. Report connection or result issues through this repository's Issues tab.
