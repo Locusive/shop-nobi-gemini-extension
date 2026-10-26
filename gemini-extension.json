@@ -6,6 +6,9 @@
   "mcpServers": {
     "shop-nobi": {
       "httpUrl": "https://api.nobi.ai/v1/shop/mcp",
+      "headers": {
+        "x-nobi-mcp-client": "shop-nobi-gemini-cli"
+      },
       "description": "Read-only product search across online stores. No account or API key required."
     }
   },
