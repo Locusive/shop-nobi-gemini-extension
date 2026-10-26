@@ -14,7 +14,7 @@ The extension also exposes `find_shop_nobi_page` for relevant Shop Nobi product-
 
 ## Connection
 
-The extension connects directly to `https://api.nobi.ai/v1/shop/mcp` using MCP Streamable HTTP. It runs no local server and asks for no credentials. See the [MCP guide](https://docs.nobi.ai/shop-nobi-mcp) for tool arguments and response fields, or the [machine-readable guide](https://docs.nobi.ai/shop-nobi-mcp.md).
+The extension connects directly to `https://api.nobi.ai/v1/shop/mcp` using MCP Streamable HTTP. It runs no local server and asks for no credentials. See the [Shop Nobi connector guide](https://docs.nobi.ai/shop-nobi-connector/) for setup and the [plain Markdown guide](https://nobi.ai/shop-nobi-mcp.md) for tool arguments and response fields.
 
 This extension currently supports product search. Shop Nobi's broader vision includes search for other online offerings, but those are not exposed by this MCP server yet.
 
