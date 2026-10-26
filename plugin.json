@@ -1,0 +1,5 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "shop-nobi",
+  "description": "Search products across online stores with Shop Nobi and get current prices, availability, and merchant links."
+}
