@@ -1,8 +1,16 @@
-# Shop Nobi for Gemini CLI
+# Shop Nobi for Antigravity and Gemini CLI
 
-Connect Gemini CLI to the [Shop Nobi search engine](https://nobi.ai/shop/mcp). The current public MCP server searches products across online stores and returns product names, stores, prices, availability, images, and links to the merchant. It is read-only and does not require an account or API key.
+Connect an AI agent to the [Shop Nobi search engine](https://nobi.ai/shop/mcp). The current public MCP server searches products across online stores and returns product names, stores, prices, availability, images, and links to the merchant. It is read-only and does not require an account or API key.
 
-## Install
+## Install in Antigravity CLI
+
+```sh
+agy plugin install https://github.com/Locusive/shop-nobi-gemini-extension
+```
+
+Ask for a product search, for example: “Find a merino wool cardigan under $200 and show the store, price, and product link for each result.” The native plugin provides the Shop Nobi MCP server and a short product-search skill. Antigravity may ask you to approve the tool call.
+
+## Install in Gemini CLI
 
 ```sh
 gemini extensions install https://github.com/Locusive/shop-nobi-gemini-extension

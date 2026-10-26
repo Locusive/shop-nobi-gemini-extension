@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "shop-nobi": {
+      "serverUrl": "https://api.nobi.ai/v1/shop/mcp"
+    }
+  }
+}
