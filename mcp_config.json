@@ -1,7 +1,10 @@
 {
   "mcpServers": {
     "shop-nobi": {
-      "serverUrl": "https://api.nobi.ai/v1/shop/mcp"
+      "serverUrl": "https://api.nobi.ai/v1/shop/mcp",
+      "headers": {
+        "x-nobi-mcp-client": "shop-nobi-antigravity"
+      }
     }
   }
 }
