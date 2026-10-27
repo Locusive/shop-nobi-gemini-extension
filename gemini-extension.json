@@ -1,6 +1,6 @@
 {
   "name": "shop-nobi",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Search products across online stores with Shop Nobi and get prices, availability, and merchant links.",
   "repository": "https://github.com/Locusive/shop-nobi-gemini-extension",
   "mcpServers": {
